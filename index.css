@@ -1,0 +1,480 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin-left: 200px;
+}
+.link-container{
+  display: flex;
+  justify-content: space-between;
+}
+.link-container li {
+  list-style: none;
+  padding-right: 20px;
+}
+.link-container li a {
+  text-decoration: none;
+  font-size: 10px;
+}
+.icons-container {
+  display: flex;
+}
+.icons-container li {
+  list-style: none;
+  padding-right: 20px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.main .main-content {
+  padding-left: 85px;
+}
+.main .main-content h1 {
+font-size: 50px;
+font-weight: bold;
+}
+/*Background for first section*/
+.sec-1 {
+background: linear-gradient(to top, lightblue, #fff);
+margin-left: 50px;
+margin-right: 50px;
+}
+.sec-1 .main .main-content{
+  margin-left: -30px;
+}
+.main, .call, .social-media, h4 {
+  font-size: 10px;
+}
+.main .main-content p {
+  padding-bottom: 30px;
+}
+.main .main-content h1 {
+  padding-bottom: 30px;
+}
+.main .main-content h3 {
+  padding-bottom: 50px;
+}
+.main .main-content .call h4 {
+  padding-bottom: 10px;
+}
+.main .main-content .social-media h4 {
+  display: inline;
+  margin-right: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding-left: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.icons .i-1 {
+  display: flex;
+ align-items: center;
+}
+.icons .i-1 p {
+  margin-left: 20px;
+}
+.icons .i-2 {
+  display: flex;
+  align-items: center;
+}
+.icons .i-2 p {
+  margin-left: 20px;
+}
+.icons .i-3 {
+  display: flex;
+  align-items: center;
+}
+.icons .i-3 p {
+  margin-left: 20px;
+}
+.icons .i-4 {
+  display: flex;
+  align-items: center;
+}
+.icons .i-4 p {
+  margin-left: 20px;
+}
+.sec-2 {
+  background-color: #EEF0EB;
+  height: 590px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sec-2 .heading h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+}
+.sec-2 .collection {
+  margin-left: -60px;
+}
+.products .left h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.collection {
+  margin-top: 30px;
+}
+.collection .top .lights {
+  border: 5px solid #fff;
+  width: 200px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.collection .top .decoration {
+  border: 5px solid #fff;
+  width: 200px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.collection .top .outdoor {
+  border: 5px solid #fff;
+  width: 420px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.collection .top .outdoor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.collection .top{
+  display: flex;
+padding-left: 200px;
+}
+.collection .bottom .interior {
+  border: 5px solid #fff;
+  width: 420px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+}
+.collection .bottom .interior {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.collection .bottom .furniture {
+  border: 5px solid #fff;
+  width: 200px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.collection .bottom .space {
+  border: 5px solid #fff;
+  width: 200px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.collection .bottom{
+  display: flex;
+padding-left: 200px;
+}
+.products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.products .left {
+  padding-left: 200px;
+}
+.products .right  {
+  display: flex;
+  padding-right: 220px;
+}
+.products .right h2 {
+  font-size: 10px;
+  margin-left: 50px;
+}
+.container-images .container .bag {
+  border: 1px solid #fff;
+  width: 240px;
+  background-color: #fff;
+  margin-right: 17px;
+}
+.container-images .container .bag img {
+  opacity: 0.2;
+}
+.container-images .container .globe img {
+  opacity: 0.2;
+}
+.container-images .container .lamp {
+  border: 1px solid #fff;
+  width: 240px;
+  background-color: lightgrey;
+  margin-right: 17px;
+}
+.container-images .container .water {
+  border: 1px solid #fff;
+  width: 240px;
+  background-color: lightgrey;
+  margin-right: 17px;
+}
+.container-images .container .chair {
+  border: 1px solid #fff;
+  width: 240px;
+  background-color: lightgrey;
+  margin-right: 17px;
+}
+.container-images .container .globe {
+  border: 1px solid #fff;
+  width: 240px;
+  background-color: #fff;
+  margin-right: 0px;
+}
+.container-images .container {
+  display: flex;
+}
+.prices {
+  padding-left: 320px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.prices .l-1 {
+  text-align: center;
+  margin-right: 110px;
+}
+.prices .l-1 p {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+}
+.prices .l-1 h1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.prices .w-1 {
+  text-align: center;
+  margin-right: 110px;
+}
+.prices .w-1 p {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+}
+.prices .w-1 h1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.prices .c-1 {
+  text-align: center;
+}
+.prices .c-1 p {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+}
+.prices .c-1 h1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.sec-3 {
+  line-height: 1.8;
+  background-color: #C6D8D3;
+  text-align: center;
+  max-width: 1024px;
+  margin:auto;
+  padding-right: 75px;
+  padding-left: 75px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sec-3 h1 {
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec-3 p {
+  font-size: 12px;
+}
+.sec-3 input {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.sponsors{
+  padding-left: 270px;
+}
+.sponsors img {
+  margin-right: 20px;
+}
+.sec-4-container {
+ margin-left: 200px;
+}
+.sec-4 {
+background-color: #F2F2F2;
+max-width: 1024px;
+margin: auto;
+padding-right: 75px;
+padding-left: 75px;
+}
+.sec-4 .sec-4-container {
+  display: flex;
+  padding-bottom: 50px;
+}
+.sec-4 .sec-4-container .for-logo {
+  margin-left: -100px;
+}
+.sec-4 .sec-4-container .for-logo p{
+  padding-top: 20px;
+}
+.sec-4 .sec-4-container .footer-links-1{
+  padding-left: 150px;
+  padding-right: 50px;
+}
+.sec-4 .sec-4-container .footer-links-2{
+  padding-right: 50px;
+}
+.sec-4 .sec-4-container, .footer-links-1,
+.footer-links-2,
+.footer-links-3, li{
+  list-style-type: square;
+  color: black;
+
+}
+.sec-4 .sec-4-container, .footer-links-1,
+.footer-links-2,
+.footer-links-3, a {
+  text-decoration: none;
+  font-size: 10px;
+  color: grey;
+}
+.sec-4 .sec-4-container .footer-links-1, .footer-links-2, .footer-links-3{
+  padding-top: 55px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.last .rights {
+  padding-left: 230px;
+}
+.last .sponsor {
+  padding-right: 230px;
+}
+.last .sponsor img{
+  margin-right: 10px;
+}
+.search {
+  position: relative;
+}
+.search .fa-search {
+  position: absolute;
+  top: 48px;
+  left: 69%;
+}
+.arrows {
+  position: relative;
+}
+.arrows {
+  position: absolute;
+}
+
+.arrows, #nxt{
+  left: 25px;
+  top: 35%;
+  opacity: 0.7;
+}
+
+.arrow {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+}
+.arrow, #pre{
+  right: 25px;
+  top: 35%;
+  opacity: 0.7;
+}
+/*Styling right and left arrows (carousel)*/
+.left-right {
+  position: relative;
+}
+.left-right {
+  position: absolute;
+}
+.left-right, #lt {
+  opacity: 0.5;
+  top: 205%;
+  left: 190px;
+}
+.rights2 {
+  position: relative;
+}
+.rights2 {
+  position: absolute;
+}
+.rights2, #rt {
+  opacity: ;
+  top: 205%;
+  right: 190px;
+}
+/*Style for  arrow list-style-type*/
+.sec-4 .sec-4-container li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+.sec-4 .sec-4-container li:before {
+  content: "\25BA \0020";
+  font-size: 6px;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
